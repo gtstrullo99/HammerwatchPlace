@@ -16,7 +16,7 @@ if (window.top !== window.self) {
             div.className = "Template";
             div.id = "HammerWatch";
             div.style = "height:2500px; width:3000px; position: absolute; inset: 0px; transform: translateX(19950px) translateY(68700px);     background-size: cover; image-rendering: pixelated;" +
-    "background-image: url('https://i.imgur.com/SmDxPWO.png'); opacity: 0.3;";
+    "background-image: url('https://imgur.com/OgyFGkf'); opacity: 0.3;";
             return div;
         })())
               document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-camera")[0].shadowRoot.children[0].children[0].children[0].appendChild(
