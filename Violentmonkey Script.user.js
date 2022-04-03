@@ -15,7 +15,7 @@ if (window.top !== window.self) {
             const div = document.createElement("div");
             div.className = "Template";
             div.id = "HammerWatch";
-            div.style = "height:2500px; width:3000px; position: absolute; inset: 0px; transform: translateX(17050px) translateY(66950px);     background-size: cover; image-rendering: pixelated;" +
+            div.style = "height:2500px; width:3000px; position: absolute; inset: 0px; transform: translateX(20000px) translateY(68700px);     background-size: cover; image-rendering: pixelated;" +
     "background-image: url('https://i.imgur.com/SmDxPWO.png'); opacity: 0.3;";
             return div;
         })())
