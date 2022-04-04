@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hammerwatch Place
 // @namespace    https://discord.gg/PACR5YTW
-// @version      0.6.4
+// @version      0.6.5
 // @description  Try to take over r/place!
 // @author       Trullo#9717
 // @match        https://hot-potato.reddit.com/embed*
@@ -15,17 +15,8 @@ if (window.top !== window.self) {
             const div = document.createElement("div");
             div.className = "Template";
             div.id = "HammerWatch";
-            div.style = "height:850px; width:900px; position: absolute; inset: 0px; transform: translateX(19950px) translateY(68700px);     background-size: cover; image-rendering: pixelated;" +
+            div.style = "height:850px; width:900px; position: absolute; inset: 0px; transform: translateX(19700px) translateY(4300px);     background-size: cover; image-rendering: pixelated;" +
     "background-image: url('https://i.imgur.com/e4qM1AI.png'); opacity: 0.3;";
-            return div;
-        })())
-              document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-camera")[0].shadowRoot.children[0].children[0].children[0].appendChild(
-        (function () {
-            const div = document.createElement("div");
-            div.className = "Template";
-            div.id = "Radiance";
-            div.style = "height:5250px; width:4700px; position: absolute; inset: 0px; transform: translateX(12350px) translateY(66950px);     background-size: cover; image-rendering: pixelated;" +
-    "background-image: url('https://github.com/onyx-4977/onyx-4977/raw/main/RadianceTemplate.png'); opacity: 0.3;";
             return div;
         })())
       
