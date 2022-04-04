@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hammerwatch Place
 // @namespace    https://discord.gg/PACR5YTW
-// @version      0.6.5
+// @version      0.7
 // @description  Try to take over r/place!
 // @author       Trullo#9717
 // @match        https://hot-potato.reddit.com/embed*
