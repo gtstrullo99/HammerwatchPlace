@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hammerwatch Place
 // @namespace    https://discord.gg/PACR5YTW
-// @version      0.7.1
+// @version      0.7.2
 // @description  Try to take over r/place!
 // @author       Trullo#9717
 // @match        https://hot-potato.reddit.com/embed*
@@ -15,7 +15,7 @@ if (window.top !== window.self) {
             const div = document.createElement("div");
             div.className = "Template";
             div.id = "HammerWatch";
-            div.style = "height:850px; width:900px; position: absolute; inset: 0px; transform: translateX(54600px) translateY(21100px);     background-size: cover; image-rendering: pixelated;" +
+            div.style = "height:850px; width:900px; position: absolute; inset: 0px; transform: translateX(54650px) translateY(21200px);     background-size: cover; image-rendering: pixelated;" +
     "background-image: url('https://i.imgur.com/e4qM1AI.png'); opacity: 0.3;";
             return div;
         })())
