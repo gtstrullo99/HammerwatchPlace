@@ -15,8 +15,8 @@ if (window.top !== window.self) {
             const div = document.createElement("div");
             div.className = "Template";
             div.id = "HammerWatch";
-            div.style = "height:1300px; width:3000px; position: absolute; inset: 0px; transform: translateX(19950px) translateY(68700px);     background-size: cover; image-rendering: pixelated;" +
-    "background-image: url('https://i.imgur.com/kISyG3v.png'); opacity: 0.3;";
+            div.style = "height:850px; width:900px; position: absolute; inset: 0px; transform: translateX(19950px) translateY(68700px);     background-size: cover; image-rendering: pixelated;" +
+    "background-image: url('https://i.imgur.com/e4qM1AI.png'); opacity: 0.3;";
             return div;
         })())
               document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-camera")[0].shadowRoot.children[0].children[0].children[0].appendChild(
