@@ -16,7 +16,7 @@ if (window.top !== window.self) {
             div.className = "Template";
             div.id = "HammerWatch";
             div.style = "height:850px; width:900px; position: absolute; inset: 0px; transform: translateX(52700px) translateY(21250px);     background-size: cover; image-rendering: pixelated;" +
-    "background-image: url('https://i.imgur.com/xzkzXp5.png'); opacity: 0.3;";
+    "background-image: url('https://i.imgur.com/XtdQnXq.png'); opacity: 0.3;";
             return div;
         })())
       
